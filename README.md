@@ -54,7 +54,12 @@ Seen in testnet5 coinbases:
 
 - [lapis.erisian.com.au](https://lapis.erisian.com.au/): ckpool, coinbase tag `/tn5/`. It mined block 1, and [chain.json](https://lapis.erisian.com.au/chain.json) lists its blocks.
 - casa21.vinteum.org: ckpool, coinbase tag `ckpool/@jaonoctus/casa21.vinteum.org/0x539/`, taproot payout. Large since about 2026-11-15.
-- P2Pool v2: coinbase tag `P2Poolv2`
+- P2Pool v2: coinbase tag `P2Poolv2`. A second instance tags `P2Poolv2-21m.dev`, from about block 4401.
+- Sv2: coinbase tag `Sv2/ plebhash`, from about block 129. The name suggests Stratum V2.
+- BTCLab.dev: coinbase tag `[[BTCLab.dev]]`, from about block 1164.
+- Public Pool on Umbrel: coinbase tag `Public Pool Testnet5 on Umbrel`, from about block 2757.
+- Jinx-Pool: coinbase tag `Jinx-Pool`, from about block 4518.
+- pogolo: coinbase tag `pogolo - decentralize or die/v1.1.8`, from about block 6206.
 - [testnet5.com pool](https://testnet5.com/): coinbase tag `Testnet5.com Pool`, from about block 4732. Stratum `stratum.testnet5.com:3334` (starting difficulty 262,144), or `:3333` (difficulty 4,096, for small miners like a Bitaxe). The username is a `tb1` address. The site gives a 10% fee and PROP payouts every 10 minutes.
 - [datstr](https://datstr.com/): a decentralized share network. Each block's coinbase pays every miner directly, plus a commitment output.
 
