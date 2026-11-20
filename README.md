@@ -45,6 +45,7 @@ Peers you can `addnode` (P2P port 18353):
 ## Explorers
 
 - [wormer.libbitcoin.net](https://wormer.libbitcoin.net:58143/): the explorer built into Libbitcoin Server. It shows a web page in a browser and returns JSON to `Accept: application/json`. Example: [`/v1/tx/<txid>`](https://wormer.libbitcoin.net:58143/v1/tx/41ca9eecef375cb157163e2bec4e9baad769c6c6402e6068de6a2d0963444f4d)
+- [testnet5.com/explorer](https://testnet5.com/explorer/): look up blocks, transactions and `tb1` addresses, with an [API](https://testnet5.com/api/). Run by BayAreaCoins.
 - mempool.space: none yet. `mempool.space/testnet5` doesn't exist.
 
 ## Pools
@@ -54,11 +55,13 @@ Seen in testnet5 coinbases:
 - [lapis.erisian.com.au](https://lapis.erisian.com.au/): ckpool, coinbase tag `/tn5/`. It mined block 1, and [chain.json](https://lapis.erisian.com.au/chain.json) lists its blocks.
 - casa21.vinteum.org: ckpool, coinbase tag `ckpool/@jaonoctus/casa21.vinteum.org/0x539/`, taproot payout. Large since about 2026-11-15.
 - P2Pool v2: coinbase tag `P2Poolv2`
+- [testnet5.com pool](https://testnet5.com/): coinbase tag `Testnet5.com Pool`, from about block 4732. Stratum `stratum.testnet5.com:3334` (starting difficulty 262,144), or `:3333` (difficulty 4,096, for small miners like a Bitaxe). The username is a `tb1` address. The site gives a 10% fee and PROP payouts every 10 minutes.
 - [datstr](https://datstr.com/): a decentralized share network. Each block's coinbase pays every miner directly, plus a commitment output.
 
 ## Faucets
 
-- None known yet. Coins come from mining (see [Pools](#pools)).
+- [testnet5.com/faucet](https://testnet5.com/faucet/): 0.01 tBTC5 per claim, up to 6 claims per address every 24 hours.
+- Otherwise coins come from mining (see [Pools](#pools)).
 
 ## Timeline
 
